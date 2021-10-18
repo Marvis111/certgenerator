@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: cornflowerblue ;
+}
+.navbar{
+    box-shadow: 1px 1px 3px grey !important;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.navbar-toggler{
+    border: 1px solid rgb(104, 104, 245);
+}
+.col-md-6{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media all and (max-width:765px){
+    .row{
+        flex-direction: column-reverse !important;
+    }
+    .col-md-6{
+        text-align: center !important;
+        align-content: center !important;
+    }
+    .btn{
+        margin: 10px auto !important;
+        margin-bottom: 20px;
+    }
+}
