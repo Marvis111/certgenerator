@@ -29,7 +29,7 @@ include '../controllers/server.php';
 <body>
     <nav class="navbar navbar-expand-md bg-light navbar-primary justify-content-space-between">
 		<!-- Brand -->
-		<a class="navbar-brand"  href="#">E-Certificate</a>
+		<a class="navbar-brand"  href="/">E-Certificate</a>
 	  
 		<!-- Toggler/collapsibe Button -->
 		<button class="navbar-toggler text-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -41,11 +41,11 @@ include '../controllers/server.php';
 		  <ul class="navbar-nav">
 			<li class="nav-item">
 				<li class="nav-item">
-					<a class="nav-link" href="./views/login.php">Login
+					<a class="nav-link" href="./login.php">Login
 						<span class="icon-person"></span>
 					</a>
 				  </li>
-			  <a class="nav-link" href="#">
+			  <a class="nav-link" href="./signup.php">
 				  Sign up
 				  <span class="icon-people"></span>
 			  </a>
