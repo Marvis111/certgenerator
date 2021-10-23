@@ -46,7 +46,7 @@ class Certificate
 		
 	}
 };
-
+//download as image...
 if (isset($_POST['downloadcert'])) {
 	$newCert = new Certificate($_SESSION['username'],'../controllers/certificate.jpg','Okeke Johnpaul');
 	$newCert->createCertImg()->setFont('OpenSans-Regular.ttf')->writeOnCert()->readFile();

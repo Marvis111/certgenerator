@@ -1,5 +1,6 @@
 <?php
 	include '../controllers/cert.gen.php';
+	include '../controllers/pdfdownload.php';
 	if (!isset($_SESSION['username'])) {
 		header('location:login.php');
 	}
@@ -62,7 +63,10 @@
 	  		<div class="">
 	  			<form method="POST" action="index.php">
 	  				<button type="submit" name="downloadcert" class="btn btn-primary">
-	  					<span>Download <i class="icon-chevron-down"></i></span>
+	  					<span>Download as JPG <i class="icon-chevron-down"></i></span>
+	  				</button>
+	  				<button type="submit" name="downloadcertpdf" class="btn btn-success">
+	  					<span>Download As PDF <i class="icon-chevron-down"></i></span>
 	  				</button>
 	  			</form>
 	  		</div>
